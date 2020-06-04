@@ -16,8 +16,6 @@
 #include "enclave/ticketlock.h"
 #include "enclave/sgxlkl_config.h"
 
-static struct sysinfo;
-
 static struct ticketlock mmaplock;
 
 static void* mmap_bitmap;       // Memory allocation bitmap
